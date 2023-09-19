@@ -11,7 +11,18 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    
+    <div id="colorpickercontainer" class="text-center">
+        <h1>Color Picker </h1>
+        <div class="d-flex flex-row test">
+            <button class="button1" id="button1" onclick="firstButton()">#e0e0e0</button>
+            <button class="button1" id="button2" onclick="secondButton()">#6fef97</button>
+            <button class="button1"id="button3" onclick="thirdButton()">#56ccf2</button>
+            <button class="button1" id="button4" onclick="fourthButton()">#bb6bd9</button>
+        </div>
+        <p>Background Color: <span id="selectedColorHexCode">#ffffff</span></p>
+        <p>Try clicking on one of the colors above to change the background color of this page!</p>
+    </div>
+</body>
 <script src="index.js"></script>
 </body>
 </html>

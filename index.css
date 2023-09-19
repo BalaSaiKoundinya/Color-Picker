@@ -2,7 +2,7 @@
 
 
 .bg-container {
-    height: cover;
+    height: 100vh;
 }
 .test {
     justify-content: space-evenly;
@@ -41,4 +41,16 @@
 }
 .color-description {
     padding-top: 50px;
+    font-size: 25px;
+}
+.background-color {
+    background-color: #222222;
+    color: #ffffff;
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+p span {
+    color: skyblue;
 }
